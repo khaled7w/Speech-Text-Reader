@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speech Text Reader</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/72cc71c3b7.js"
+      crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="title-section">
+      <h1>Speech Text Reader</h1>
+      <button class="toggle" id="toggle">Toggle Text Reader</button>
+    </div>
+    <div class="container">
+      <div class="small-cont">
+        <img src="img/drink.jpg" alt="Water" />
+        <p>I'M THIRDTY</p>
+      </div>
+      <div class="small-cont">
+        <img src="img/food.jpg" alt="Pizea" />
+        <p>I'M HUNGREY</p>
+      </div>
+      <div class="small-cont">
+        <img src="img/tired.jpg" alt="A beautiful girl is sleeping" />
+        <p>I'M TIRED</p>
+      </div>
+      <div class="small-cont">
+        <img src="img/hurt.jpg" alt="Hurted" />
+        <p>I'M HURTED</p>
+      </div>
+
+      <div class="small-cont">
+        <img src="img/happy.jpg" alt="A Kid is happy" />
+        <p>I'M HAPPY</p>
+      </div>
+      <div class="small-cont">
+        <img src="img/angry.jpg" alt="A Boy is Angry" />
+        <p>I'M ANGRY</p>
+      </div>
+      <div class="small-cont">
+        <img src="img/sad.jpg" alt="Sad" />
+        <p>I'M SAD</p>
+      </div>
+      <div class="small-cont">
+        <img src="img/scared.jpg" alt="Scarred" />
+        <p>I'M SCARRED</p>
+      </div>
+
+      <div class="small-cont">
+        <img src="img/outside.jpg" alt="OUTSIDE" />
+        <p>I WANT TO GO OUTSIDE</p>
+      </div>
+      <div class="small-cont">
+        <img src="img/home.jpg" alt="HOME" />
+        <p>I WANT TO GO HOME</p>
+      </div>
+      <div class="small-cont">
+        <img src="img/school.jpg" alt="School" />
+        <p>I WANT TO GO SCHOOL</p>
+      </div>
+      <div class="small-cont">
+        <img src="img/grandma.jpg" alt="Grandma" />
+        <p>I WANT TO GO TO GRANDAMAS</p>
+      </div>
+    </div>
+
+    <div class="show-box" working="false">
+      <label for="voice">Choose Voice</label>
+      <select name="voices" id="select-voice"></select>
+      <input type="text " class="intered-text" id="intered-text" />
+      <button class="reset-btn" id="reset-btn">Reset Text</button>
+      <i class="fa-solid fa-xmark icon"></i>
+    </div>
+  </body>
+</html>
